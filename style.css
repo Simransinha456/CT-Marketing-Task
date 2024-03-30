@@ -1,0 +1,283 @@
+body {
+  overflow-x: hidden;
+}
+img {
+  width: 100vw;
+  height: 85vh;
+  object-fit: cover;
+}
+.image-container {
+  position: relative;
+}
+.text1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(15, 14, 14);
+  font-size: 70px;
+}
+.text2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(15, 14, 14);
+  font-size: 80px;
+}
+h3 {
+  margin-left: 30%;
+  margin-bottom: -2%;
+}
+.image1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 70%;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spaced1 {
+  margin-left: 25%;
+  margin-right: 5%;
+}
+
+.image4 {
+  height: 100vh;
+}
+
+#carousel {
+  margin-left: 25%;
+  margin-top: 5px;
+  display: flex;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+}
+.carousel-image {
+  height: 120px;
+  width: 170px;
+}
+
+.main {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #171616;
+  font-size: 20px;
+  margin-left: 25%;
+}
+.big span {
+  font-size: 100px;
+}
+.big {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(76, 76, 77);
+  margin-top: 3%;
+}
+.lorem {
+  width: 70%;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.third_image {
+  height: 108.5vh;
+}
+.Third {
+  position: relative;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #171616;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 105%;
+  margin-top: 0px;
+  background-color: rgb(228, 228, 228);
+}
+.second_image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 25%;
+}
+
+.big2 span {
+  font-size: 100px;
+  margin-left: 300px;
+}
+.big2 {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(76, 76, 77);
+  margin-top: 0%;
+}
+.lorem2 {
+  width: 35%;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 20px;
+}
+/* ------------ */
+
+.new-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 12%;
+  margin-bottom: 2%;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, rgb(69, 69, 71), rgb(108, 92, 92));
+  color: rgb(138, 140, 140);
+  height: 100px;
+  margin-top: -2%;
+  width: 105%;
+  position: relative;
+}
+P {
+  margin-left: 70%;
+  width: 100%;
+}
+.close2 {
+  margin-left: 5%;
+}
+
+.schedule {
+  width: 25%;
+  background-color: rgb(219, 222, 223);
+  position: absolute;
+  top: 270%;
+  left: 25%;
+  opacity: 0.7;
+}
+h1 {
+  margin-left: 20px;
+  margin-bottom: -1px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.start {
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+.left {
+  margin-left: -55px;
+}
+
+@media (max-width: 400px) {
+  .text1 {
+    font-size: 40px;
+    top: 35%;
+  }
+  .text2 {
+    font-size: 40px;
+  }
+  .image1 {
+    margin-left: 2px;
+  }
+  .close1 {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .spaced1 {
+    margin-left: 20px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  .spaced2 {
+    font-size: 12px;
+  }
+  #carousel {
+    margin-left: 5%;
+    margin-top: 2px;
+    width: 10%;
+    height: 10%;
+    gap: 5px;
+  }
+  .carousel-image {
+    height: 80px;
+    width: 80px;
+  }
+  .overlay2 {
+    display: block;
+  }
+  .Third {
+    position: relative;
+  }
+  .new-image {
+    height: 100px;
+  }
+
+  .big2 span {
+    font-size: 80px;
+    margin-left: 20px;
+  }
+  .big2 {
+    font-size: 10px;
+    font-weight: 1000;
+  }
+
+  .lorem2 {
+    width: 350px;
+    font-size: 13px;
+    margin-left: 30px;
+  }
+  .schedule {
+    width: 50%;
+    top: 260%;
+    left: 15%;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .start {
+    display: flex;
+    font-size: 12px;
+    margin-left: 50px;
+  }
+  .left p {
+    margin-left: 30px;
+  }
+  .right p {
+    margin-left: 5px;
+  }
+  .container2 {
+    color: rgb(178, 179, 179);
+    height: 90px;
+    width: 105%;
+  }
+
+  .second_image {
+    margin-left: 30px;
+  }
+  .close2 {
+    margin-left: 5%;
+    font-size: 13px;
+  }
+  P {
+    margin-left: 20%;
+    width: 70%;
+    font-size: 12px;
+  }
+}
